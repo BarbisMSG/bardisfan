@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00aff0;
+  width: 100vw;
+  height: 60px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #fafafa;
+}
+
+.logo {
+  margin-left: 10px;
+  font-weight: 900;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav a {
+  margin: 5px;
+  color: #fafafa;
+  font-size: 15px;
+}

@@ -1,0 +1,102 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+* a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+}
+
+/*HOME*/
+.altura {
+  height: calc(100vh - 120px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+/*Contenedor*/
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Card para ingreso de datos y logueo*/
+.logueo {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-left: 2px solid #fafafa;
+  border-top: 2px solid #fafafa;
+  box-shadow: 20px 20px 40px -6px #aae4e6;
+  background-color: #aae6e0;
+}
+
+.logueo input {
+  margin: 10px;
+}
+
+.logueo p {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.logueo p:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+.crearCuenta {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-left: 2px solid #fafafa;
+  border-top: 2px solid #fafafa;
+  box-shadow: 20px 20px 40px -6px #aae4e6;
+  background-color: #aae6e0;
+}
+
+.crearCuenta p {
+  font-size: 15px;
+}
+
+button {
+  background-color: #00aff0;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
